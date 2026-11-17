@@ -144,7 +144,10 @@ export default function Home() {
       </main>
       <footer><div className="wrap footer-inner">
         <a href="#top"><img className="wordmark" src="/thinkthon-wordmark.png" width="190" height="34" alt="THINKTHON" /></a>
-        <p>Organized by IEEE Zewail City Student Branch</p>
+        <div className="organizer">
+          <img src="/ieee-zewail-city.png" width="88" height="88" alt="" loading="lazy" />
+          <p>Organized by <strong>IEEE Zewail City Student Branch</strong></p>
+        </div>
       </div></footer>
     </>
   );

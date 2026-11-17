@@ -111,3 +111,6 @@ h1 { font-size: clamp(2.85rem, 7vw, 6.5rem); }
   .rounds article { gap: 12px; }
   .outline { left: 78%; top: 30%; }
 }
+.organizer { display: flex; align-items: center; gap: 14px; }
+.organizer img { display: block; flex: none; border-radius: 8px; }
+.organizer strong { display: block; }
